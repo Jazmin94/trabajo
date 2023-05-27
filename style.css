@@ -2,7 +2,6 @@
   --colorTextos: #49454567;
 }
 
-
 *,
 ::before,
 ::after {
@@ -10,9 +9,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 
 body {
   font-family: 'Roboto';
@@ -164,3 +160,39 @@ a:hover:after{
   }
 }
 
+footer
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+
+}
+.contenido__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    color:  #12c2ca;
+}
+
+.contenido__footer img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media screen and (max-width: 767px){
+
+    .contenido__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
